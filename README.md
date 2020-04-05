@@ -1,0 +1,1 @@
+> Refining my skills by going back to the basics of JS with this todo list project done with DevEd course
