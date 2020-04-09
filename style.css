@@ -20,7 +20,21 @@ form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.error-message {
+    color: #ff6f47;
+    display: none;
+}
+
+.show-error {
+    display: block;
 }
 
 form input,
@@ -112,7 +126,8 @@ select {
 }
 
 .select {
-    margin: 1rem;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
     position: relative;
     overflow: hidden;
 }
